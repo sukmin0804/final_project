@@ -159,14 +159,15 @@ body::before {
   margin: 8px 0 10px 0;
   font-size: 0.9rem;
   line-height: 1.7;
+  white-space: normal;
 }
 
 /* (선택) 사진 넣고 싶으면 .cover 클래스 사용
    <img class="cover" src="images/xxx.jpg"> */
 .cover {
-  width: 100%;
-  border-radius: 12px;
-  margin-bottom: 10px;
+  width: 75%;
+  border-radius: 9px;
+  margin-bottom: 7px;
   object-fit: cover;
 }
 
@@ -232,4 +233,6 @@ body::before {
     padding: 14px 12px 12px;
   }
 }
+
+
 
